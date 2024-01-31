@@ -1,6 +1,7 @@
 const { Configuration, OpenAIApi } = require("openai");
 
 const readline = require('readline');
+const apiKey = process.env.YOUR_SECRET_NAME;
 
 const rl = readline.createInterface({
     input: process.stdin,
@@ -8,7 +9,7 @@ const rl = readline.createInterface({
 });
 
 const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "apiKey",
 });
 
 const openai = new OpenAIApi(configuration);
