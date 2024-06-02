@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 });
 
 const configuration = new Configuration({
-    apiKey: "sk-UqwyX05Wi6jPZBf8gsadnalknRdvT3BlbkFJVWlry4I5bM3TdkIUl5",
+    apiKey: "sk-UqwyX05Wi6jPZBf8gsad1nalknRdvT3BlbkFJVWlry4I5bM3TdkIUl5",
 });
 
 const openai = new OpenAIApi(configuration);
